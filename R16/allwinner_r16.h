@@ -6,6 +6,7 @@ class R16
 
 public:
     R16();
+    void init();
 };
 
 #endif

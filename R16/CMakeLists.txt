@@ -3,4 +3,4 @@ project(R16)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(R16 allwinner_r16.cpp allwinner_r16.h memmap.cpp)
+add_library(R16 allwinner_r16.cpp allwinner_r16.h memmap.cpp ccu.cpp ccu.h)
