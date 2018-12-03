@@ -19,11 +19,11 @@ public:
     uint32_t PPL_DE_CTRL_REG;
     uint32_t PPL_DDR1_CTRL_REG;
     uint32_t CPU_AXI_CFG_REG;
-    uint32_t AHB1_APB1_CFG_REG;
+    uint16_t AHB1_APB1_CFG_REG;
     uint32_t APB2_CFG_REG;
     uint32_t BUS_CLK_GATING_REG0;
     uint32_t BUS_CLK_GATING_REG1;
-    uint32_t BUS_CLK_GATING_REG2;
+    uint16_t BUS_CLK_GATING_REG2;
     uint32_t BUS_CLK_GATING_REG3;
     uint32_t NAND_CLK_REG;
     uint32_t SDMMC0_CLK_REG;
@@ -35,7 +35,7 @@ public:
     uint32_t DAUDIO1_CLK_REG;
     uint32_t USBPHY_CFG_REG;
     uint32_t DRAM_CFG_REG;
-    uint32_t PPL_DDR_CFG_REG;
+    uint16_t PPL_DDR_CFG_REG;
     uint32_t MBUS_RST_REG;
     uint32_t DRAM_CLK_GATING_REG;
     uint32_t BE_CLK_REG;
@@ -51,8 +51,8 @@ public:
     uint32_t DRC_CLK_REG;
     uint32_t GPU_CLK_REG;
     uint32_t ATS_CLK_REG;
-    uint32_t PLL_STABLE_TIME_REG0;
-    uint32_t PLL_STABLE_TIME_REG1;
+    uint16_t PLL_STABLE_TIME_REG0;
+    uint16_t PLL_STABLE_TIME_REG1;
     uint32_t PLL_CPUX_BIAS_CFG;
     uint32_t PLL_AUDIO_BIAS_REG;
     uint32_t PLL_VIDEO_BIAS_REG;
@@ -80,8 +80,8 @@ public:
     uint32_t PLL_DDR1_PAT_CTRL_REG1;
     uint32_t BUS_SOFT_RST_REG0;
     uint32_t BUS_SOFT_RST_REG1;
-    uint32_t BUS_SOFT_RST_REG2;
-    uint32_t BUS_SOFT_RST_REG3;
+    uint8_t BUS_SOFT_RST_REG2;
+    uint16_t BUS_SOFT_RST_REG3;
     uint32_t BUS_SOFT_RST_REG4;
 };
 #endif //R16_CCU_H
