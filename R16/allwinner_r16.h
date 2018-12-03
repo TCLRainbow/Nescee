@@ -4,6 +4,9 @@
 #include "ccu.h"
 #include "cpucfg.h"
 #include "timer.h"
+#include "pwm.h"
+#include "dma.h"
+#include "rtc.h"
 
 class R16
 {
@@ -13,6 +16,9 @@ public:
     CCU ccu;
     CPUCFG cpucfg;
     Timer timer;
+    PWM pwm;
+    DMA dma;
+    RTC rtc;
 
     void init();
 };

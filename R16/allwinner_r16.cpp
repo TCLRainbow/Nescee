@@ -6,4 +6,7 @@ void R16::init() {
     ccu.init();
     cpucfg.init();
     timer.init();
+    pwm.init();
+    dma.init();
+    rtc.init();
 }
