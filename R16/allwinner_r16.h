@@ -1,12 +1,14 @@
 #ifndef R16_LIBRARY_H
 #define R16_LIBRARY_H
 
-#include "ccu.h"
-#include "cpucfg.h"
-#include "timer.h"
-#include "pwm.h"
-#include "dma.h"
-#include "rtc.h"
+#include "module/ccu.h"
+#include "module/cpucfg.h"
+#include "module/timer.h"
+#include "module/pwm.h"
+#include "module/dma.h"
+#include "module/rtc.h"
+#include "module/sram.h"
+#include "module/audio_codec.h"
 
 class R16
 {
@@ -19,6 +21,8 @@ public:
     PWM pwm;
     DMA dma;
     RTC rtc;
+    SRAM sram;
+    AUDIO_CODEC audio;
 
     void init();
 };

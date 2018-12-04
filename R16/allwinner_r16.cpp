@@ -9,4 +9,6 @@ void R16::init() {
     pwm.init();
     dma.init();
     rtc.init();
+    sram.init();
+    audio.init();
 }
